@@ -2,8 +2,8 @@
 
 <div align="center">
   
-![dino.gif](./스쿠나.gif)
+  ![dino.gif](./스쿠나.gif)
 
 </div>
 
-풀이중인 코드 피드백... 대환영...
+풀이중인 코드 피드백 대환영
