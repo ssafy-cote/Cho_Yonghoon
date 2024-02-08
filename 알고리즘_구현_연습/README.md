@@ -34,4 +34,4 @@ for (int i = 1; i * 2 <= hn;)
 
 
 
-![dino.gif](./NextPermuatation.png)
+![dino.gif](./NextPermuatation.PNG)
