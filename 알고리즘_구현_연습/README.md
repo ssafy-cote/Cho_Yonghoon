@@ -31,3 +31,7 @@ for (int i = 1; i * 2 <= hn;)
 ### 왜냐하면 왼쪽 자식이 없다는 것은 현재 노드 i가 리프 노드인 경우이기 때문에 더 이상 비교할 필요가 없기 때문입니다.
 ### 따라서 i * 2 <= hn은 현재 노드가 최소한 하나 이상의 자식을 가지고 있어야 한다는 조건을 나타냅니다.
 참고 사이트 : https://bloodstrawberry.tistory.com/45
+
+
+
+![dino.gif](./NextPermuatation.png)
