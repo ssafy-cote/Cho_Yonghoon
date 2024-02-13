@@ -1,6 +1,7 @@
-package test;
+package algo240213;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,18 +10,19 @@ import java.util.StringTokenizer;
 
 
 
-public class Main_BJ_2615_오목_연민호_v2_경계체크X {
+public class Main_B_2615_오목_연민호_경계체크_BR사용 {
 
 	static int N = 19;
 
-	public static void main(String[] args){
-		Scanner s = new Scanner(System.in);
-
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		int[][] map = new int[N+2][N+2];	//바둑판
 
 		for(int i=1; i<=N; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine());
 			for(int j=1; j<=N; j++) {
-				map[i][j] = s.nextInt();
+				map[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
 

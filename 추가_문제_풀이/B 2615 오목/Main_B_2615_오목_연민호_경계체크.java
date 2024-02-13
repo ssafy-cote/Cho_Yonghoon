@@ -1,28 +1,20 @@
-package test;
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+package algo240213;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 
 
-public class Main_BJ_2615_오목_연민호_v2_경계체크X_BR사용 {
+public class Main_B_2615_오목_연민호_경계체크 {
 
 	static int N = 19;
 
-	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int[][] map = new int[N+2][N+2];	//바둑판
+	public static void main(String[] args){
+		Scanner s = new Scanner(System.in);
+
+		int[][] map = new int[N+1][N+1];	//바둑판
 
 		for(int i=1; i<=N; i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine());
 			for(int j=1; j<=N; j++) {
-				map[i][j] = Integer.parseInt(st.nextToken());
+				map[i][j] = s.nextInt();
 			}
 		}
 
@@ -46,8 +38,8 @@ public class Main_BJ_2615_오목_연민호_v2_경계체크X_BR사용 {
 						int prevR = i-dr[d];
 						int prevC = j-dc[d];
 
-						//같은 색의 바둑알인 경우, 오목의 시작점이 아니므로 다음 방향 탐색
-						if(cur==map[prevR][prevC] ) continue;
+						//경계 내에 있고 같은 색의 바둑알인 경우, 오목의 시작점이 아니므로 다음 방향 탐색
+						if(isInRange(prevR, prevC) && cur==map[prevR][prevC] ) continue;
 
 
 						//d=0인경우 - 발견한 바둑알 기준 상하 탐색
@@ -61,12 +53,13 @@ public class Main_BJ_2615_오목_연민호_v2_경계체크X_BR사용 {
 							r += dr[d];
 							c += dc[d];
 
-							//같은 바둑알이 아니라면
-							if(map[r][c]!=cur) break;
+							if(!isInRange(r,c)) break;	//경계를 벗어나는 경우 멈춤
+							if(map[r][c]!=cur) break;	//같은 바둑알이 아닌 경우 멈춤
 
-							//경계 내에 있고 같은 바둑알의 경우
+							//연속된 바둑알의 개수가 5개를 초과한다면 탐색을 멈춤
 							if(++cnt>5) break;	//바둑알 개수 cnt
 						}
+						
 						//현재 방향의 탐색을 마침
 						//cnt 값이 5라면? 정답 출력 후 종료
 						if(cnt==5) {
@@ -80,6 +73,14 @@ public class Main_BJ_2615_오목_연민호_v2_경계체크X_BR사용 {
 		}
 		//무사히 반복문을 끝냈다면? 오목을 발견하지 못했으므로 0출력
 		System.out.println(0);
+	}
+	/**
+	 * (r,c)좌표가 경계내에 있다면 true 반환
+	 * @param r
+	 * @param c
+	 */
+	private static boolean isInRange(int r, int c) {
+		return r>=1 && r<=N && c>=1 && c<=N;
 	}
 }
 
