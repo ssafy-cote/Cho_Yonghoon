@@ -1,4 +1,4 @@
-package algo0223;
+package algo0225;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Main_B_17471_°Ô¸®¸Ç´õ¸µ_Á¶¿ëÈÆ {
+public class Main_B_17471_ê²Œë¦¬ë§¨ë”ë§_ì¡°ìš©í›ˆ { // 14312kb ë©”ëª¨ë¦¬, 112ms ì‹œê°„
 	static int N;
 	static boolean[] checked;
 	static int[] people;
@@ -41,7 +41,7 @@ public class Main_B_17471_°Ô¸®¸Ç´õ¸µ_Á¶¿ëÈÆ {
 			}
 		}
 		ans = Integer.MAX_VALUE;
-		subset(2, 0);
+		subset(1, 0);
 		ans = (ans == Integer.MAX_VALUE) ? -1 : ans;
 		System.out.println(ans);
 	}
@@ -60,43 +60,32 @@ public class Main_B_17471_°Ô¸®¸Ç´õ¸µ_Á¶¿ëÈÆ {
 					listB.add(i);
 				}
 			}
-
-			int flagA = 0;
-			int flagB = 0;
+			visit = new boolean[N + 1];
+			visit[listA.get(0)] = true;
+			makeTeam(listA.get(0), listA);
+			if (!isTeam(listA)) {
+				return;
+			}
+			visit = new boolean[N + 1];
+			visit[listB.get(0)] = true;
+			makeTeam(listB.get(0), listB);
+			if (!isTeam(listB)) {
+				return;
+			}
 
 			int aP = 0;
 			int bP = 0;
 
 			for (int n : listA) {
 				aP += people[n];
-				visit = new boolean[N + 1];
-				visit[n] = true;
-				cnt = 0;
-				if (isTeam(listA, n)) {
-					flagA = 1;
-					break;
-				}
-			}
-			for (int n : listB) {
-				bP += people[n];
-				visit = new boolean[N + 1];
-				visit[n] = true;
-				cnt = 0;
-				if (isTeam(listB, n)) {
-					flagB = 1;
-					break;
-				}
 			}
 
-			if ((flagA + flagB) != 2) {
-				return;
+			for (int n : listB) {
+				bP += people[n];
 			}
 
 			int temp = Math.abs(aP - bP);
 			ans = (ans > temp) ? temp : ans;
-			System.out.println("A: " + listA);
-			System.out.println("B: " + listB);
-			System.out.println(ans);
 			return;
 		}
 		checked[index] = true;
@@ -105,29 +94,23 @@ public class Main_B_17471_°Ô¸®¸Ç´õ¸µ_Á¶¿ëÈÆ {
 		subset(index + 1, trueCnt);
 	}
 
-	static boolean isTeam(ArrayList<Integer> list, int a) {
-		if(list.size() == 1) return true;
-		int c = 0;
-		for(boolean v : visit) {
-			if(v) {
-				++c;
+	// ì²˜ìŒ ì‹œì‘ ë¶€ë¶„ ë¶€í„° ë‹¤ë¥¸ ì—°ê²°ëœ ë…¸ë“œë¥¼ ì´ì–´ì£¼ëŠ” í•¨ìˆ˜
+	static void makeTeam(int n, ArrayList<Integer> list) {
+		for (int i : list) {
+			if (map[n][i] && !visit[i]) {
+				visit[i] = true;
+				makeTeam(i, list);
 			}
 		}
-		if(c == list.size()) {
-			return true;
-		}
+	}
 
+	// ìˆœì—´ì˜ ë…¸ë“œë“¤ì´ ëª¨ë‘ ë°©ë¬¸ ì²´í¬ê°€ ë˜ì—ˆëŠ”ì§€ í™•ì¸í•˜ëŠ” í•¨ìˆ˜
+	static boolean isTeam(ArrayList<Integer> list) {
 		for (int n : list) {
-			if (map[a][n]) {
-				if (!visit[n]) {
-					visit[n] = true;
-					if (isTeam(list, n)) {
-						return true;
-					}
-					visit[n] = false;
-				}
-			}
+			if (visit[n])
+				continue;
+			return false;
 		}
-		return false;
+		return true;
 	}
 }
