@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01주차" isTestSource="false" packagePrefix="algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/02주차" isTestSource="false" packagePrefix="com.ssafy.algo" />
+      <sourceFolder url="file://$MODULE_DIR$/03주차" isTestSource="false" packagePrefix="algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/04주차" isTestSource="false" packagePrefix="algorithm_0206" />
+      <sourceFolder url="file://$MODULE_DIR$/05주차" isTestSource="false" packagePrefix="com.edu.ssafy_0214" />
+      <sourceFolder url="file://$MODULE_DIR$/06주차" isTestSource="false" packagePrefix="algo0220" />
+      <sourceFolder url="file://$MODULE_DIR$/07주차" isTestSource="false" packagePrefix="algo0228" />
+      <sourceFolder url="file://$MODULE_DIR$/08주차" isTestSource="false" packagePrefix="algo0305" />
+      <sourceFolder url="file://$MODULE_DIR$/09주차" isTestSource="false" packagePrefix="algo0313" />
+      <sourceFolder url="file://$MODULE_DIR$/10주차" isTestSource="false" packagePrefix="algo0318" />
+      <sourceFolder url="file://$MODULE_DIR$/11주차" isTestSource="false" packagePrefix="algo0328" />
+      <sourceFolder url="file://$MODULE_DIR$/12주차" isTestSource="false" packagePrefix="algo0402" />
+      <sourceFolder url="file://$MODULE_DIR$/13주차" isTestSource="false" packagePrefix="algo0411" />
+      <sourceFolder url="file://$MODULE_DIR$/14주차" isTestSource="false" packagePrefix="algo0416" />
+      <sourceFolder url="file://$MODULE_DIR$/15주차" isTestSource="false" packagePrefix="algo0425" />
+      <sourceFolder url="file://$MODULE_DIR$/16주차" isTestSource="false" packagePrefix="algo0503" />
+      <sourceFolder url="file://$MODULE_DIR$/17주차" isTestSource="false" packagePrefix="algo0508" />
+      <sourceFolder url="file://$MODULE_DIR$/18주차" isTestSource="false" packagePrefix="algo0610" />
+      <sourceFolder url="file://$MODULE_DIR$/19주차" isTestSource="false" packagePrefix="algo0614" />
+      <sourceFolder url="file://$MODULE_DIR$/20주차" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23주차" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/29주차" isTestSource="false" packagePrefix="algo29" />
+      <sourceFolder url="file://$MODULE_DIR$/30주차" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A" isTestSource="false" packagePrefix="test" />
+      <sourceFolder url="file://$MODULE_DIR$/DP_연습" isTestSource="false" packagePrefix="com.ssafy.algo" />
+      <sourceFolder url="file://$MODULE_DIR$/설_특집" isTestSource="false" packagePrefix="com.edu.ssafy_0207" />
+      <sourceFolder url="file://$MODULE_DIR$/알고리즘_구현_연습" isTestSource="false" packagePrefix="com.edu.ssafy_0214" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

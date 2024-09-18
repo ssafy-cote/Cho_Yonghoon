@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1.아파트 색칠하기" isTestSource="false" packagePrefix="algo240227" />
+      <sourceFolder url="file://$MODULE_DIR$/2.막대 색칠하기" isTestSource="false" packagePrefix="algo240227" />
+      <sourceFolder url="file://$MODULE_DIR$/B 10026 적록색약" isTestSource="false" packagePrefix="algo240220" />
+      <sourceFolder url="file://$MODULE_DIR$/B 10971 외판원 순회 2" isTestSource="false" packagePrefix="algo240229" />
+      <sourceFolder url="file://$MODULE_DIR$/B 11286 절댓값 힙" isTestSource="false" packagePrefix="algo240207" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1149 RGB거리" isTestSource="false" packagePrefix="algo240228" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1158 요세푸스 문제" isTestSource="false" packagePrefix="com.edu.ssafy_0205" />
+      <sourceFolder url="file://$MODULE_DIR$/B 11659 구간 합 구하기 4" isTestSource="false" packagePrefix="algo230131" />
+      <sourceFolder url="file://$MODULE_DIR$/B 11660 구간 합 구하기 5" isTestSource="false" packagePrefix="algo230131" />
+      <sourceFolder url="file://$MODULE_DIR$/B 11866번 요세푸스문제 0" isTestSource="false" packagePrefix="algo0425" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1244 스위치 켜고 끄기" isTestSource="false" packagePrefix="algo230131" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1260 DFS와 BFS" isTestSource="false" packagePrefix="algo240216" />
+      <sourceFolder url="file://$MODULE_DIR$/B 12865번 평범한 배낭" isTestSource="false" packagePrefix="algo240326" />
+      <sourceFolder url="file://$MODULE_DIR$/B 12891 DNA 비밀번호" isTestSource="false" packagePrefix="algo240221" />
+      <sourceFolder url="file://$MODULE_DIR$/B 13023 ABCDE" isTestSource="false" packagePrefix="algo240221" />
+      <sourceFolder url="file://$MODULE_DIR$/B 14502 연구소" isTestSource="false" packagePrefix="algo240220" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1463 1로 만들기" isTestSource="false" packagePrefix="algo240227" />
+      <sourceFolder url="file://$MODULE_DIR$/B 15649 N과 M(1)" isTestSource="false" packagePrefix="com.edu.ssafy_0130" />
+      <sourceFolder url="file://$MODULE_DIR$/B 15650 N과 M(2)" isTestSource="false" packagePrefix="com.edu.ssafy_0131" />
+      <sourceFolder url="file://$MODULE_DIR$/B 15683 감시" isTestSource="false" packagePrefix="algo240227" />
+      <sourceFolder url="file://$MODULE_DIR$/B 15686 치킨 배달" isTestSource="false" packagePrefix="algo240213" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1600 말이 되고픈 원숭이" isTestSource="false" packagePrefix="algo240228" />
+      <sourceFolder url="file://$MODULE_DIR$/B 16435 스네이크버드" isTestSource="false" packagePrefix="algo240213" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1654번 랜선 자르기" isTestSource="false" packagePrefix="algo240214" />
+      <sourceFolder url="file://$MODULE_DIR$/B 16926 배열 돌리기 1" isTestSource="false" packagePrefix="algo240206" />
+      <sourceFolder url="file://$MODULE_DIR$/B 16935 배열 돌리기 3" isTestSource="false" packagePrefix="algo240207" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17135 캐슬디펜스" isTestSource="false" packagePrefix="algo240222" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17281 ⚾" isTestSource="false" packagePrefix="algo240223" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17406 배열 돌리기 4" isTestSource="false" packagePrefix="algo240214" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17471 게리맨더링" isTestSource="false" packagePrefix="algo240223" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17472번 다리 만들기2" isTestSource="false" packagePrefix="algo240329" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17478 재귀함수가 뭔가요" isTestSource="false" packagePrefix="com.edu.ssafy_0130" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1753 최단경로" isTestSource="false" packagePrefix="algo240227" />
+      <sourceFolder url="file://$MODULE_DIR$/B 17836 공주님을구해라!" isTestSource="false" packagePrefix="algo0304" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1938번 통나무옮기기" isTestSource="false" packagePrefix="algo0424" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1987 알파벳" isTestSource="false" packagePrefix="algo240220" />
+      <sourceFolder url="file://$MODULE_DIR$/B 1992 쿼드트리" isTestSource="false" packagePrefix="algo240214" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2164 카드2" isTestSource="false" packagePrefix="algo240202" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2206 벽 부수고 이동하기" isTestSource="false" packagePrefix="algo0222" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2252 줄 세우기" isTestSource="false" packagePrefix="algo240220" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2309 일곱 난쟁이" isTestSource="false" packagePrefix="algo230131" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2493 탑" isTestSource="false" packagePrefix="algo240205" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2563 색종이" isTestSource="false" packagePrefix="algo240207" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2609번 최대공약수 최소공배수" isTestSource="false" packagePrefix="algo0401" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2615 오목" isTestSource="false" packagePrefix="algo240213" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2636 치즈" isTestSource="false" packagePrefix="algo0221" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2775번 부녀회장" isTestSource="false" packagePrefix="algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2798 블랙잭" isTestSource="false" packagePrefix="algo240206" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2839 설탕 배달" isTestSource="false" packagePrefix="algo240213" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2931 가스관" isTestSource="false" packagePrefix="algo240328" />
+      <sourceFolder url="file://$MODULE_DIR$/B 2961 도영이가 만든 맛있는 음식" isTestSource="false" packagePrefix="algo240221" />
+      <sourceFolder url="file://$MODULE_DIR$/B 3055 탈출" isTestSource="false" packagePrefix="algo240229" />
+      <sourceFolder url="file://$MODULE_DIR$/B 3109 빵집" isTestSource="false" packagePrefix="algo240214" />
+      <sourceFolder url="file://$MODULE_DIR$/B 7576 토마토" isTestSource="false" packagePrefix="algo240216" />
+      <sourceFolder url="file://$MODULE_DIR$/B 9205번 맥주 마시면서 걸어가기" isTestSource="false" packagePrefix="algo0401" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1208 Flatten" isTestSource="false" packagePrefix="algo230130" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1210 Ladder1" isTestSource="false" packagePrefix="algo230130" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1225 암호생성기" isTestSource="false" packagePrefix="com.edu.ssafy_0202" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1228 암호문1" isTestSource="false" packagePrefix="algo240205" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1238 Contact" isTestSource="false" packagePrefix="algo240216" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1247 최적경로" isTestSource="false" packagePrefix="algo240206" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1263번 사람 네트워크2" isTestSource="false" packagePrefix="algo240328" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1767 프로세서 연결하기" isTestSource="false" packagePrefix="algo240228" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1861 정사각형 방" isTestSource="false" packagePrefix="algo240207" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1873 상호의 배틀필드" isTestSource="false" packagePrefix="algo240202" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1949번 등산로 조성" isTestSource="false" packagePrefix="algo240401" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1954 달팽이 숫자" isTestSource="false" packagePrefix="algo230131" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 1974 스도쿠 검증" isTestSource="false" packagePrefix="algo240206" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 2001 파리퇴치" isTestSource="false" packagePrefix="com.edu.ssafy_0201" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 2115번 벌꿀채취" isTestSource="false" packagePrefix="algo240328" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 2117 홈 방범 서비스" isTestSource="false" packagePrefix="algo240227" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 2383 점심 식사시간" isTestSource="false" packagePrefix="algo240229" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 2805 농작물 수확하기" isTestSource="false" packagePrefix="algo230130" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 2806 N-Queen" isTestSource="false" packagePrefix="algorithm_0214" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 3124 최소 스패닝 트리" isTestSource="false" packagePrefix="algo240222" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 3289 서로소 집합" isTestSource="false" packagePrefix="algo240221" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 4012 요리사" isTestSource="false" packagePrefix="algo240213" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 5215 햄버거 다이어트" isTestSource="false" packagePrefix="algo240202" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 5644 무선 충전" isTestSource="false" packagePrefix="algo240215" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 6808 규영이와 인영이의 카드게임" isTestSource="false" packagePrefix="algo240221" />
+      <sourceFolder url="file://$MODULE_DIR$/SWEA 9229 한빈이와 Spot Mart" isTestSource="false" packagePrefix="algo240221" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
